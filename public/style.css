@@ -1,0 +1,95 @@
+body {
+    background-color: #04304D;
+}
+
+.background {
+    width:fit-content;
+    height:fit-content;
+    /* align to center */
+    margin: 0 auto;
+    
+}
+
+.logo {
+    /* Logo Konekteti */
+    width: 608px;
+    height: 154px;
+}
+
+.logo-footer {
+    /* Logo Konekteti footer*/
+    width: 152px;
+    height: auto;
+}
+.logo-kmteti {
+    /* Logo KMTETI footer*/
+    width: 100px;
+    height: auto;
+}
+
+.logo-medsos{
+    /* Logo Media Sosial */
+    width: 50px;
+    height: auto;
+}
+
+.bg-primary {
+    background-color: #01314b !important;
+  }
+
+.bg-navbar{
+    background-color: #143a4f !important;
+}
+
+.text-ijo{
+    color: #B1F9B5 !important;
+}
+
+.text-navbar{
+    color: #143a4f !important;
+}
+
+.bg-ijo{
+    background-color: #B1F9B5 !important;
+}
+
+.timeline{
+    width: 1080px;
+    height: 720px;
+}
+
+.tulisan-bold{
+    font-weight: 666;
+}
+
+.coba-coba{
+    height: 100vh;
+    width: 100vw;
+}
+
+.background-calon {
+    margin-top: 28vh;
+    width: 979px;
+    height: 399px;
+
+    background: rgba(217, 217, 217, 0.06);
+    border-radius: 20px;
+}
+
+.foto-calon{
+    background-color: azure;
+    
+}
+
+
+@media screen and
+(max-width: 600px){
+    .navbar{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .container{
+        flex-direction: column;
+        justify-content: space-between;    
+    }
+}
