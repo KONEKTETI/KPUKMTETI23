@@ -1,0 +1,23 @@
+{
+  "projects": {
+    "default": "pemilu-kmteti-2022-e41cd",
+    "kpukmteti22-78b58": "kpukmteti22-78b58"
+  },
+  "targets": {
+    "pemilu-kmteti-2022-e41cd": {
+      "hosting": {
+        "pemilu-kmteti-2022": [
+          "pemilu-kmteti-22"
+        ]
+      }
+    },
+    "kpukmteti22-78b58": {
+      "hosting": {
+        "kpukmteti22": [
+          "konekteti2022"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

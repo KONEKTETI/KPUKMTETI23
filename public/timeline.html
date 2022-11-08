@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="KPU KMTETI 2022">
+        <meta name="author" content="DIPUTI">
+
+        <title>KONEKTETI</title>
+        
+        <link rel="stylesheet" href="./bootstrap-5.2.2-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-light fixed-top js-scroll-trigger bg-navbar" style="padding-inline: 150px; padding-block: 30px;">
+            <div class="container-fluid">
+              <!-- <a class="navbar-brand text-white tulisan-bold" href="./index.html">BERANDA</a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 tulisan-bold">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="./index.html">BERANDA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="./calon.html">CALON</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-ijo" href="./timeline.html">TIMELINE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="./tata-cara.html">TATA CARA</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active text-white tulisan-bold" aria-current="page" href="#">MASUK</a>
+                    </li>
+                    <li>
+                        <button type="button" class="btn btn-success bg-ijo text-navbar tulisan-bold">DAFTAR</button>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <!-- Isi -->
+        <div class="container-fluid p-auto bg-primary">
+            <div class="d-flex justify-content-center">
+                <img class="timeline" src="./asset/Timeline.jpg">
+            </div>
+        </div>
+
+                <!-- footer -->
+                <footer>
+                  <div class="d-flex justify-content-center container-fluid bg-navbar" style="padding-inline: 165px; padding-top: 40px; padding-bottom: 30px;">
+                    <div class="row" style="width: 1263px;">
+                      <!-- col1 -->
+                      <div class="col-4">
+                        <div class="d-flex flex-row justify-content-start" style="padding-top: 15px;">
+                          <img class="logo-kmteti" src="./asset/Logo KMTETI.png">
+                          <img class="logo-kmteti" src="./asset/Logo KMTETI.png">
+                        </div>
+                      </div>
+                      <!-- col2 -->
+                      <div class="col-4">
+                        <div class="d-flex flex-row justify-content-start" style="padding-left: 15px;">
+                          <img class="logo-footer" src="./asset/logo-konekteti.svg">
+                        </div>
+                      </div>
+                      <!-- col3 -->
+                      <div class="col-4">
+                        <div class="d-flex flex-row justify-content-end">
+                          <h5 class="text-white"><strong>Official Account</strong></h5>
+                        </div>
+                        <div class="d-flex flex-row justify-content-end" style="padding-right: 25px;">
+                          <a href="https://www.instagram.com/kpu.kmteti/" class="text-muted text-decoration-none lh-lg">
+                            <img class="logo-kmteti" src="./asset/Logo KMTETI.png">
+                          </a>
+                          <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=235lyihz" class="text-muted text-decoration-none lh-lg">
+                            <img class="logo-kmteti" src="./asset/Logo KMTETI.png">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center container-fluid bg-navbar" style="padding-inline: 165px;">
+                  <div class="row" style="width: 1263px;">
+                    <div class="col-4"></div>
+                    <div class="col-4">
+                      <div class="d-flex flex-row justify-content-start" style="padding-left: 135px;">
+                        <p class="text-white text-muted">© DIPUTI 2022</p>
+                      </div>
+                    </div>
+                    <div class="col-4"></div>
+                </div>
+              </footer>
+
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-analytics.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+          
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+              apiKey: "AIzaSyBSg3IBjgH_UYr-SOyYnpkv4d8I1kXKHaE",
+              authDomain: "kpukmteti22-78b58.firebaseapp.com",
+              projectId: "kpukmteti22-78b58",
+              storageBucket: "kpukmteti22-78b58.appspot.com",
+              messagingSenderId: "640154102752",
+              appId: "1:640154102752:web:27e4cfba5246a5fdc5d985",
+              measurementId: "G-RH42QBKFV0"
+            };
+          
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+          </script>
+    </body>
+</html>
